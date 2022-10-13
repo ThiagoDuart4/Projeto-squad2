@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:var(--cor1);
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color:var(--cor1);
+}
+
+main{
+    height: 100vh;
+}
+
+:root{
+    --cor1: #3F3D56;
+    --cor2:#6C63FF;
+    --cor3:#8FED9F;
+    --cor4:#D0CDE1;
+    --cor5:#ffff;
+    --cor6:black;
+}
+
+/* COMECE PEÇA ESTILIZAÇAO MOBILE  */
+
+@media only screen and (max-width: 844px) {
+
+/* EStilizaçoes header landing-page mobile */
+
+
+.landing-page{
+    display: flex;
+    align-items: center;
+justify-content:space-around;
+}
+
+.logo-Lp {
+    margin-left: -50px;
+}
+.logo-Lp img{
+ width: 80px;
+}
+
+
+
+/* SIDE_NAV */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+   right: 0;
+    background-color:var(--cor4);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+
+/* foooter da landing page  mobile*/
+
+.ld-footer{
+
+}
+
+
+
+
+
+
+
+/* FAÇA A ESTILIZAÇAO DO DESKTOP */
+
+@media only screen and (min-width: 844px){
+
+
+
+
+
+    
+
+
+}
