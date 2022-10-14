@@ -54,6 +54,34 @@ justify-content:space-around;
  width: 80px;
 }
 
+.icons-header{
+    margin-right: -50px;
+    margin-top: 30px;
+}
+.acertar img{
+    width: 25px;
+}
+
+.icons-header  a img{width: 30px;
+margin: 8px;
+cursor: pointer;}
+
+
+
+/* ESTILIZAÇOES DE TODAS AS OUTRAS PAGS */
+
+.est-geral1{
+    display: flex;
+    align-items: center;
+justify-content:space-around;
+}
+
+.logo-geral1 {
+    margin-left: -50px;
+}
+.logo-geral1 img{
+ width: 80px;
+}
 
 
 /* SIDE_NAV */
@@ -92,16 +120,20 @@ justify-content:space-around;
     margin-left: 50px;
   }
   
-
-
-/* foooter da landing page  mobile*/
-
-.ld-footer{
-
+.menu-vertical{
+    display: none;
 }
 
-
-
+.menu-vertical{
+    display: none;
+}
+.search{
+    display: none;
+}
+.btn-header{
+    display: none;
+}
+}
 
 
 
@@ -110,11 +142,28 @@ justify-content:space-around;
 
 @media only screen and (min-width: 844px){
 
-
-
-
-
     
-
-
+    .landing-page{
+        display: flex;
+        align-items: center;
+    justify-content:space-around;
+    }
+    
+    .logo-Lp {
+        margin-left: -50px;
+    }
+    .logo-Lp img{
+     width: 80px;
+    }
+    
+    .sidenav{
+        display: none;
+    }
+    .btn-sidenav{
+        display: none;
+    }
 }
+
+
+
+
