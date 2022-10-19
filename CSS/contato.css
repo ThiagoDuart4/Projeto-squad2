@@ -12,6 +12,7 @@ main {
 main h1 {
     text-align: center;
     margin-top: 80px;
+    text-decoration: underline;
     color: white;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;
     }
@@ -29,7 +30,7 @@ margin-top: 10px,
 
 .apresentacao h2 {
 text-align: center;
-margin-top: 100px;
+margin-top: 60px;
 margin-bottom: 20px;
 color: #5925DC;
 font-family: 'Urbanist', Arial, Helvetica, sans-serif;
