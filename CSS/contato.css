@@ -2,9 +2,47 @@
 
 @media only screen and (max-width: 844px) {
 
+main {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: #6C63FF;
 
+}
+main h1 {
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    }
 
+.apresentacao {
 
+}
+
+.apresentacao img {
+display: flex;
+width: 270px;
+margin-left: 60px;
+margin-top: 10px,
+}
+
+.apresentacao h2 {
+text-align: center;
+margin-top: 100px;
+margin-bottom: 20px;
+color: #5925DC;
+font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+}
+
+.apresentacao h4 {
+    text-align: center;
+    margin-top:15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #5925DC;
+    font-family: 'Urbanist', Arial, Helvetica, sans-serif;
+    }
 
 
 
