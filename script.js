@@ -1,3 +1,5 @@
+/* aqui é o código para dar alert quando a pessoa preencher o formulário */ 
+
 function validate ()
 {
 var username=document.getElementById("username").nodeValue;
