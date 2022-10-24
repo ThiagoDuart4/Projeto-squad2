@@ -23,7 +23,6 @@ main h1 {
     }
 
 
-
 .apresentacao img {
     display: flex;
     width: 270px;
@@ -34,12 +33,12 @@ main h1 {
     border-radius: 4px;
 }
 
-/* .apresentacao a img:hover { 
+.apresentacao a img:hover { 
     border: blue 5px;
     background-color:blue;
     color:red;
-    border-radius: 8px;
- }  */
+    border-radius: 50px;
+ } 
 
 .apresentacao h5 {
     text-align: center;
@@ -47,16 +46,16 @@ main h1 {
     margin-bottom: 20px;
     color: #5925DC;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-font-family: 'Urbanist';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 14px;
-/* or 100% */
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    /* or 100% */
 
-text-align: center;
-letter-spacing: 0.4px;
-text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
 
 color: #8FED9F;
 }
@@ -82,21 +81,21 @@ color: #8FED9F;
     margin-right: 40px;
     color: #5925DC;
     font-family: 'Urbanist', Arial, Helvetica, sans-serif;
-left: 10%;
-right: 4.19%;
-top: 34.23%;
-bottom: 55.04%;
+    left: 10%;
+    right: 4.19%;
+    top: 34.23%;
+    bottom: 55.04%;
 
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 26px;
-/* or 130% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    /* or 130% */
 
-text-align: center;
-letter-spacing: -0.288889px;
+    text-align: center;
+    letter-spacing: -0.288889px;
 
-color: #5925DC;
+    color: #5925DC;
     }
 
 
@@ -149,8 +148,9 @@ color: #5925DC;
         border-radius: 4px;
     }
     
-    apresentacao.img:hover {
+    .apresentacao a img:hover{
         box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+        border-radius: 20px;
     }
     
     .apresentacao h2 {
