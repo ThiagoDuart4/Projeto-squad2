@@ -3,20 +3,20 @@
 @media only screen and (max-width: 844px) {
 
     main{width: 100%;
-        height: 320vh;
+        height: 300vh;
     }
 
     .container-main{
         width: 100%;
         display: flex;
         flex-direction: column;
-
+       
     }
 
 
 .container-main .img-main img{
     width: 100%;
-    height: 320px;
+    height: 250px;
 }
 
 .container-main aside{
@@ -52,9 +52,10 @@
 
 .container-main .conteudo-main .text-main p{
   
-    font-size: 0.4em;
+    font-size: 0.5em;
 letter-spacing: 1px;
-margin-top: 20px;
+margin-top: 15px;
+text-align: center;
 
 
 }
@@ -62,7 +63,7 @@ margin-top: 20px;
 .conteudo{
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
+   
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -73,18 +74,76 @@ margin-top: 20px;
 
 
 #css-titulo{
-   margin-top: 60px;
+   margin-top: 0px;
 }
 
 #conteudo-main2{
   
 }
 
-.info-prod , .produto-main{
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    margin-top: 150px;
+
+.produto-main{
+    width: 80%;
+    height: 400px;
+    overflow: hidden;
+    overflow:auto; 
+}
+.header-prod{
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor4);
+   
+    
+}
+
+.main-prod{
+    width: 100%;
+    height: 100vh;
+  display: flex;
+  
+}
+
+
+.menu-lateral{
+width: 100px;
+border: 1px solid black;
+background-color: var(--cor1);
+
+
+}
+
+.conteudo-main-prod{
+    width: 100%;
+background-color:var(--cor7);
+}
+
+.info-prod{
+    width: 70%;
+    height: 500px;
+   
+    margin-top: 40px;
+}
+
+.info{
+    width: 100%;
+    height: 80px;
+   background-color: var(--cor4);
+    margin-top: 60px;
+  border-radius: 5px;
+}
+
+.info div{
+    width: 60px;
+    height: 60px;
+    border-radius:180px ;
+    position: relative;
+    left: -30px;
+    top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor5);
+    background-color: var(--cor2);
 }
 
 }
