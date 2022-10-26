@@ -5,15 +5,16 @@
 
 
     main{width: 100%;
-        height: 300vh;
+        height: 330vh;
+        max-height: 330vh;
     }
 
     .container-main{
         width: 100%;
-        height: 300vh;
+        height: 330vh;
         display: flex;
         flex-direction: column;
-       background-color: brown;
+        max-height: 330vh;
     }
 
 
@@ -49,13 +50,14 @@
 }
 .container-main .conteudo-main .text-main h1{
     font-size: 1.6em;
-    font-weight: 300;
+    font-weight: 500;
+    margin-bottom: 25px;
 
 }
 
 .container-main .conteudo-main .text-main p{
-  
-    font-size: 0.5em;
+  color:var(--cor8);
+    font-size: 0.8em;
 letter-spacing: 1px;
 margin-top: 15px;
 text-align: center;
@@ -95,8 +97,34 @@ text-align: center;
     width: 100%;
     height: 50px;
     background-color: var(--cor4);
-   
+    display: flex;
+    justify-content: space-around;
     
+}
+
+.header-prod .logo-prod-header img{
+    width: 80px;
+    margin-left: -40px
+}
+
+.header-prod .menu-prod-header{
+    width:100px ;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-right: -30px;
+}
+
+.header-prod .menu-prod-header a{
+    margin-left: 5px;
+    font-size: 0.6em;
+    text-decoration: none;
+    color: var(--cor5);
+    font-weight: 500;
+}
+
+.header-prod .menu-prod-header a:link{
+  color: var(--cor1);
 }
 
 .main-prod{
@@ -108,10 +136,8 @@ text-align: center;
 
 
 .menu-lateral{
-width: 100px;
-border: 1px solid black;
+width: 130px;
 background-color: var(--cor1);
-
 
 }
 
@@ -120,10 +146,32 @@ background-color: var(--cor1);
 background-color:var(--cor7);
 }
 
+.menu-lateral .conteudo-menu-lateral-prod{
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu-lateral .conteudo-menu-lateral-prod h1{
+    color: var(--cor3);
+    margin: 30px 0px 15px 5px;
+    font-size: 0.9em;
+}
+
+.menu-lateral .conteudo-menu-lateral-prod a{
+    font-size: 0.5em;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--cor5);
+    padding-left: 10px;
+    
+}
+
 .info-prod{
     width: 70%;
     height: 500px;
-   
+    
     margin-top: 40px;
 }
 
@@ -133,6 +181,17 @@ background-color:var(--cor7);
    background-color: var(--cor4);
     margin-top: 60px;
   border-radius: 5px;
+  display: flex;
+}
+
+.info p{
+    position: relative;
+    width: 80%;
+    font-size:0.8em;
+    left: -20px;
+    top: 20px;
+    color: var(--cor1);
+    font-weight: bold;
 }
 
 .info div{
