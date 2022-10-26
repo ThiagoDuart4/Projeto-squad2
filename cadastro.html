@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/cadastro.css">
- 
-</head>
-<body>
-        <!-- NAO ALTERE O HEADER E NEM O FOOTER -->
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./cadastro.css">
 
-     <!-- inicio da header -->
-     <header class="landing-page">
+</head>
+
+<body>
+    <!-- NAO ALTERE O HEADER E NEM O FOOTER -->
+
+    <!-- inicio da header -->
+    <header class="landing-page">
         
         <!-- logo -->
         <div class="logo-Lp">
-            <img src="Assets/LOGO CORRETA 1.png" alt="">
+            <img src="./LOGO CORRETA 1.png" alt="">
         </div>
 
       <div class="btns">
-         <div class="serch-bar"><img src="Assets/Icono Buscar.png" alt="" onclick=""></div>
+         <div class="serch-bar"><img src="./Icono Buscar.png" alt="" onclick=""></div>
        
-         <div class="btn-sidenav"><img src="Assets/hambergermenu.png" alt="" onclick="openNav()"></div>
+         <div class="btn-sidenav"><img src="./hambergermenu.png" alt="" onclick="openNav()"></div>
         </div>
        
         <!-- sidenav -->
@@ -46,7 +48,7 @@
 
     <div class="search">
         <input type="text">
-        <img src="Assets/Icono Buscar.png" alt="">
+        <img src="./Icono Buscar.png" alt="">
     </div>
 
    
@@ -61,20 +63,74 @@
 </header>
 
 
+
     <main>
 
+        <img src="./form 1.png">
 
 
-<!-- CODIFIQUE AQUI -->
+        <div class="container">
+            <div class="header">
+                <button id="regis">
+                    <h3>Cadastre-se</h3>
+                </button>
+                <button id="enther">
+                    <a href="login.html">
+                    <h3>Entrar</h3></a>
+                </button>
+            </div>
+
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="username">Nome de usuário</label>
+                    <input type="text" id="username" placeholder="Digite um nome de usuário...">
+                    <i id="user" class="fa-solid fa-user"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem dde erro</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Digite seu email...">
+                    <i id="mail" class="fa-solid fa-envelope"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem dde erro</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite uma senha...">
+                    <i id="lock" class="fa-sharp fa-solid fa-lock"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="password-confirmation">Confirmação de senha</label>
+                    <input type="password" id="password-confirmation" placeholder="Confirme sua senha...">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                </div>
+
+                <button type="submit">Criar Conta</button>
+
+            </form>
+
+        </div>
 
 
 
 
     </main>
+    <script src="https://kit.fontawesome.com/5098983f5d.js" crossorigin="anonymous"></script>
 
-
-    
-    <script src="js/cadastro.js"></script>
-  <script src="js/global.js"></script>
+    <script src="./cadastro.js"></script>
+    <script src="./global.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
+
 </html>
