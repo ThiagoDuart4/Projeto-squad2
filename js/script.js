@@ -5,7 +5,7 @@ function abrirAlerta(){
           title:"Olá",
           text:"Seja bem vindo a HC Student",
           icon:"success",
-          button: "Aww yiss!",
-          time: 50.000,
+          button: "Ok!",
+          
      });
 }
