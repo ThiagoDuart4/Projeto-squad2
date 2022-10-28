@@ -7,6 +7,7 @@
         --cor2: #6C63FF;
         --cor3: #8FED9F;
         --cor4: white;
+        --cor5: #2F2E41;
     
     }
 
@@ -70,8 +71,15 @@
     outline: none;
     color: var(--cor4);
 
-
     }
+
+.fotoprincipal{
+    display: none;
+}
+
+.p1{
+
+}
 
 }
 
@@ -165,6 +173,26 @@
 }
  
 
+.fotoprincipal{
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    top: 250px;
+    left: 650px;
+    border-radius: 15px;
+    
+}
+
+.fotoprincipal
+.p1{
+{
+    
+    color:var(--cor5);
+    left:20px;
+}
+}
+
+}
 
 
 }
