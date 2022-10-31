@@ -1,14 +1,3 @@
-//function logar(){
-   // let email = document.getElementById('email').value;
-//let senha = document.getElementById('password').value;
-//
-   // if (email == "senac@resilia.com.br" && senha == "123456"){
-   //     alert('success')
-   // } else {
-   //     alert("Usuario ou senha incorretos")
-    //}
-//}
-
 const form = document.getElementById("form");
 const email = document.getElementById("email");
 

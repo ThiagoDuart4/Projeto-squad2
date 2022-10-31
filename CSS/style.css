@@ -116,7 +116,7 @@
     height: 600px;
     width: 400px;
     top: 153.04px;
-    left: 43.3px;
+    left:150px;
     border-radius: 15px;
     
 }
@@ -191,17 +191,17 @@
     height: 600px;
     width: 400px;
     top: 230px;
-    left: 650px;
+    left: 750px;
     border-radius: 15px;
     
 }
 
 /* para colocar no centro a frase de "não tem uma conta registre-se*/
-.id{
-    margin-left: 60%;
-    margin-top: 40%;
+.id a{
 
-}
+    position: relative;
+    left: 860px;
+    top: 540px;
 
 }
 

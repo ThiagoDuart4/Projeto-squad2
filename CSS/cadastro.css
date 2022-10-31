@@ -6,15 +6,17 @@
     }
     main {
         display: flex;
-        justify-content: center;
+       justify-content: center;
         align-items: center;
     }
 
     .immg{
         display: none;
     }
+/* correçao header */
 
- 
+
+
     .container{
         background-color: #fafafa;
         border-radius: 10px;
@@ -26,7 +28,7 @@
         border-radius: 35px;
         margin: auto;
         border: 15px solid var(--cor1);
- 
+     
 
     }
 
