@@ -28,7 +28,7 @@
         border-radius: 35px;
         margin: auto;
         border: 15px solid var(--cor1);
-        
+      
 
     }
 
@@ -263,10 +263,11 @@
         overflow: hidden;
         position: absolute;
         border-radius: 35px;
-        margin-top: 200px;
+        margin-top: 80px;
+        margin-bottom: 10px;
         border: 15px solid var(--cor1);
-     
-
+        position: relative;
+        
     }
 
 
