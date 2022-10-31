@@ -28,7 +28,7 @@
         border-radius: 35px;
         margin: auto;
         border: 15px solid var(--cor1);
-     
+        
 
     }
 
@@ -528,9 +528,9 @@ img{
     overflow: hidden;
     position: relative;
     border-radius: 35px;
-    margin: auto;
+   
     border: 15px solid var(--cor1);
-
+margin: 15px auto;
 
 }
 
@@ -544,9 +544,10 @@ img{
 
 
 .form{
-    padding: 50px;
+    padding: 40px;
     
-
+    width: 760px;
+    height: 700px;
 }
 
 .form-control{
