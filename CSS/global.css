@@ -55,6 +55,7 @@ main {
         justify-content: space-around;
     }
 
+  
     .logo-Lp {
         margin-left: -50px;
     }
@@ -241,8 +242,39 @@ header{
 
 }
 
+.landing-page .icons {
+       position: relative;
+       left: 100px;
+       top: 20px;
+}
+.landing-page .icons img{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.landing-page .icons :nth-child(1){
+    width: 20px;
+
+}
+
+.landing-page .icons :nth-child(2){
+    width: 20px;
+}
+.landing-page .icons :nth-child(3){
+    width: 25px;
+}
+
+
+
 .logo-Lp img{
     width: 130px;
+    position: relative;
+    
+}
+
+#landing-page img{
+    position: relative;
+    right: 150px;
 }
 
  
