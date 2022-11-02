@@ -84,6 +84,55 @@ p{
     
 }
 
+.titulohtml{
+    width: 783px;
+    height: 100px;
+    background:var(--cor7);
+    left: 10px;
+    padding-left: 60px;
+    padding-top: 30px;
+    color: var(--cor2); 
+}
+
+.img1{
+    margin-top: 121px;
+    width: 10%;
+    height: 20%;
+    margin-left:40px;
+    position: relative;
+}
+
+.texto1{
+    margin-top:100px;
+    width: 329px;
+    height: 372px;
+    padding-left: 58px;   
+}
+
+.titulocss{
+    width: 783px;
+    height: 100px;
+    background:var(--cor7);
+    left: 10px;
+    padding-left: 60px;
+    padding-top: 30px;
+    color: var(--cor2); 
+}
+
+.img2{
+    margin-top: 121px;
+    width: 10%;
+    height: 20%;
+    margin-left:40px;
+    position: relative;
+}
+
+.texto2{
+    margin-top:100px;
+    width: 329px;
+    height: 372px;
+    padding-left: 58px;   
+}
 
 }
 
