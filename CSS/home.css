@@ -2,11 +2,87 @@
 
 @media only screen and (max-width: 844px) {
 
+    :root {
+        --cor1: #3F3D56;
+        --cor2: #6C63FF;
+        --cor3: #8FED9F;
+        --cor4: white;
+        --cor5: #2F2E41;
+        --cor6: #EAECEF;
+        --cor7: #D0CDE1;
+        
+    }
 
 
+.fotoprincipal{
+    display: none;
+}
 
+.fotoprincipal2{
+    width: 437px;
+    margin-top: 1px;
+    outline: none;
+    display: block;
+    
+}
 
+.div2{
+    background: var(--cor6);  ;
+    width: 842px;
+    height: 1150px;
+    position: relative;
+    padding-top: 1rem;
+    outline: none;
+    display: block;
+}
 
+.quadro1{
+    width: 301px;
+    height: 286px;
+    margin-top:50px;
+    margin-left:90px;
+    border-radius: 15px;
+    background:var(--cor4); 
+    text-align: center;
+    position: relative;
+
+    
+}
+
+.quadro2{
+    width: 301px;
+    height: 286px;
+    margin-top:200px;
+    border-radius: 15px;
+    background:var(--cor4); 
+    text-align: center;
+    
+    
+}
+
+.quadro3{
+    width: 301px;
+    height: 286px;
+    margin-top:210px;
+    border-radius: 15px;
+    background:var(--cor4); 
+    text-align: center;
+       
+}
+
+span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    size: 29px;
+    line-height: 80px;
+    font-size: 25px;   
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 20px;
+    
+}
 
 
 }
@@ -19,11 +95,167 @@
 
 @media only screen and (min-width: 844px){
 
-
-
-
-
+    :root {
+        --cor1: #3F3D56;
+        --cor2: #6C63FF;
+        --cor3: #8FED9F;
+        --cor4: white;
+        --cor5: #2F2E41;
+        --cor6: #EAECEF;
+        --cor7: #D0CDE1;
+        
     
+    }
+
+    .fotoprincipal2{
+        display: none;
+    }
+
+/* a div da segunda parte*/
+.div2{
+    background: var(--cor6);  ;
+    width: 1440px;
+    height: 727px;
+    padding-top: 1rem;
+    left:-671px;
+}
+
+/* quadro 1,2 e 3 são os quadradinhos da segunda parte*/
+.quadro1{
+    width: 328px;
+    height: 354px;
+    margin-top:200px;
+    left: -516px;
+    border-radius: 15px;
+    background:var(--cor4); ;
+    margin-left: 100px;
+    
+}
+
+span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    size: 29px;
+    line-height: 80px;
+    margin-left: 50px;
+    font-size: 25px;   
+
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    
+}
+
+.quadro2{
+    width: 328px;
+    height: 354px;
+    margin-top: -215px;
+    left: -516px;
+    border-radius: 15px;
+    background:var(--cor4); ;
+    margin-left: 400px;   
+
+
+}
+
+.quadro3{
+    width: 328px;
+    height: 354px;
+    margin-top: -215px;
+    left: -516px;
+    border-radius: 15px;
+    background:var(--cor4); 
+    margin-left: 400px;   
+
+}
+
+/* aqui termina a segunda parte*/
+
+/* titulo html*/
+.titulohtml{
+    width: 1370px;
+    height: 100px;
+    top:2100px;
+    background-color:var(--cor7);  
+    left: 10px;
+    padding-left: 60px;
+    padding-top: 30px;
+    color: var(--cor2); 
+    
+}
+
+/* aqui comeca a terceira parte*/
+
+.div3{
+    background: var(--cor4); 
+    width: 1440px;
+    height: 660px;
+    padding-top: 1rem;
+    left:-671px; 
+}
+
+/* style da img1*/
+.img1{
+    margin-top: 121px;
+    width: 379px;
+    height: 413px;
+    margin-left:100px ;
+}
+
+/*style do texto ao lado da div img1*/
+.texto1{
+    margin-top:-300px;
+    width: 686px;
+    height: 160px;
+    padding-left: 2rem;
+    margin-left: 620px;
+}
+
+.h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
+
+/*titulo css*/
+.titulocss{
+    width: 1370px;
+    height: 100px;
+    background-color:var(--cor7);  
+    left: 10px;
+    padding-left: 60px;
+    padding-top: 30px;
+    color: var(--cor2); 
+
+}
+
+.div4{
+    background: var(--cor4); 
+    width: 1440px;
+    height: 727px;
+    padding-top: 1rem;
+    left:-671px; 
+}
+
+.img2{
+    margin-top: 121px;
+    width: 379px;
+    height: 413px;
+    margin-left:900px;
+}
+
+.texto2{
+    margin-top:-250px;
+    width: 686px;
+    height: 160px;
+    padding-left: 2rem;
+    margin-left: 20px
+}
+
+
+
 
 
 }
