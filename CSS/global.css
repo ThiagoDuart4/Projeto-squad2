@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 96%;
     height: 100px;
     background-color: var(--cor1);
 }
@@ -40,6 +40,8 @@ main {
     --cor6: black;
     --cor7: #F1F0F6;
     --cor8: rgba(0, 0, 0, 0.658);
+    --cor9:#EAECEF;
+    --cor10: rgba(0, 0, 0, 0.2);
 }
 
 /* COMECE PEÇA ESTILIZAÇAO MOBILE  */
@@ -48,6 +50,9 @@ main {
 
     /* EStilizaçoes header landing-page mobile */
 
+    header{
+        width: 100%;
+    }
 
     .landing-page {
         display: flex;
